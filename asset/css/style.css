@@ -1,0 +1,176 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #FFFDF5;
+}
+
+.custom-cl1 {
+    color: hsl(210, 100%, 15%);
+}
+.custom-cl2 {
+    color: #ebbd36;
+}
+.custom-cl3{
+    color: #0057af;
+}
+.border1{
+    border: 2px solid #0057af;
+}
+.navbar {
+    background-image: linear-gradient(to right, #35b5df, #00048b);
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.navbar-toggler {
+    background-color: #ebbd36 !important;
+}
+
+.nav-link {
+    color: #ebbd36;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #FFFDF5;
+}
+
+.nav-link:focus {
+    color: #FFFDF5;
+}
+
+.btn-chat {
+    background-color: #ebbd36;
+    color: #2b2b2b;
+    border: 2px solid #2b2b2b;
+    font-weight: bold;
+}
+
+.btn-signin {
+    background-color: #ebbd36;
+    color: #2b2b2b;
+    font-weight: bold;
+}
+
+.btn-signin:hover {
+    color: #FFFDF5;
+    border: 2px solid #FFFDF5;
+}
+
+.btn-chat:hover {
+    border: 2px solid #FFFDF5;
+    color: #FFFDF5;
+}
+
+/* Background Image Section */
+.background-image1 {
+    background-image: url("/asset/image/Cc-main-slider-01.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    /* Absolute positioning */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Cover the full section */
+    z-index: 0;
+    /* Place behind the content */
+}
+
+.overlay {
+    /* Gray overlay */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(221, 219, 219, 0.5);
+    /* 50% gray overlay */
+    z-index: 1;
+    /* Place above the background image but below content */
+}
+
+.section1 {
+    position: relative;
+    /* Position relative to allow absolute children */
+}
+
+.card {
+    background: transparent;
+    border-radius: 30px;
+}
+
+.card-body {
+    background: #35b5df;
+    border: 30px;
+    border-radius: 30px;
+}
+
+.card-body h5 {
+    padding: 5px;
+    border-radius: 10px;
+    color: #FFFDF5;
+    background: #00048b;
+}
+
+.card-body form {
+    gap: 0px;
+}
+
+/* end of section1  */
+
+.getquote{
+    background: #0057af;
+}
+.btn-gq{
+    border-radius: 15px;
+    padding: 5px 20px;
+    background-color: #ebbd36;
+    border: none;
+    color: #0057af;
+}
+.btn-gq:hover{
+
+}
+.section2{
+    background-color: #0057af;
+    color: #FFFDF5;
+}
+
+/* Our Recent Purchase Cars */
+.section21{
+    padding-left: 50px;
+}
+.section21 ul{
+    list-style: none;
+}
+.section21 ul li {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fffdf54b;
+    width: 270px;
+}
+.section22{
+    padding: 20px;
+    background-color: #FFFDF5;
+    height: 400px;
+    border-radius: 50px  0px 0px 50px ;
+}
+
+
+.bgCar{
+    background-image: url("/asset/image/cashingCar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.white-shadow {
+    display: block; /* Ensure image behaves correctly */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation on hover */
+    filter: drop-shadow( 0px 30px 30px  rgb(255, 255, 255));
+ 
+    /* White shadow effect */
+}
