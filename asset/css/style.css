@@ -65,7 +65,7 @@ body {
 
 /* Background Image Section */
 .background-image1 {
-    background-image: url("/asset/image/Cc-main-slider-01.webp");
+    background-image: url("asset/image/Cc-main-slider-01.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -162,7 +162,7 @@ body {
 
 
 .bgCar{
-    background-image: url("/asset/image/cashingCar.jpg");
+    background-image: url("asset/image/cashingCar.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
