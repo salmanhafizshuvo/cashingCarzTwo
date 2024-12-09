@@ -12,6 +12,9 @@ body {
 .custom-cl3{
     color: #0057af;
 }
+.bgY{
+    background-color: #ebbd36;
+}
 .border1{
     border: 2px solid #0057af;
 }
@@ -99,18 +102,18 @@ body {
     /* Position relative to allow absolute children */
 }
 
-.card {
+.card1 {
     background: transparent;
     border-radius: 30px;
 }
 
-.card-body {
+.card-body1 {
     background: #35b5df;
     border: 30px;
     border-radius: 30px;
 }
 
-.card-body h5 {
+.card-body1 h5 {
     padding: 5px;
     border-radius: 10px;
     color: #FFFDF5;
@@ -249,3 +252,6 @@ h2 {
 .slider > div {
     flex: 0 0 auto; /* Prevent shrinking */
 }
+
+/* blog */
+ 
